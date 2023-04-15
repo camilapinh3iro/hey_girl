@@ -1,0 +1,32 @@
+#home{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../img/image-womens.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 85px 120px;
+}
+
+.content-title h1{
+    font-size: 3.125rem;
+    font-weight: 400;
+}
+
+.content-title h1 span{
+    font-size: 3rem;
+    font-weight: 700;
+    font-family: 'Lexend', sans-serif;
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.menu li a {
+    font-size: 1.125rem;
+}
