@@ -1,2 +1,2 @@
 # hey_girl
-Site para treinamento.
+just training...

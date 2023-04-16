@@ -1,10 +1,10 @@
-#trajectory{
+#trajectory {
     width: 100%;
     height: 100vh;
     display: flex;
 }
 
-.trajectory-left{
+.trajectory-left {
     width: 58%;
     height: 100vh;
     background-image: url(../img/image-trajectory.jpg);
@@ -14,36 +14,83 @@
 }
 
 
-.trajectory-right{
-    padding: 65px 90px;
+.trajectory-right {
+    width: 42%;
+    padding: 55px 90px;
+    display: flex;
+    
+    justify-content: center;
+    gap: 52px;
 }
 
-.content-title-section{
+.content-title-section {
     display: flex;
     gap: 18px;
 }
 
-.bar{
+.bar {
     width: 2px;
     height: 50px;
     background-color: var(--primary-color);
     border-radius: 20px;
-    
+
 }
 
-.title-text{
+.title-text {
     display: flex;
     flex-direction: column;
     gap: 9px;
     padding-top: 9px;
 }
 
-.title-text h2{
+.title-text h2 {
     font-size: 2rem;
 }
-.title-text h3{
+
+.title-text h3 {
     font-size: 1.8rem;
     font-weight: 400;
     max-width: 400px;
 }
 
+.conquest-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.conquest-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.year {
+    color: var(--primary-color);
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family: 'Lexend', sans-serif;
+}
+
+.bar-timeline {
+    width: 3px;
+    height: 850px;
+    background-color: var(--primary-color);
+    border-radius: 20px;
+}
+
+.content-conquest {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 200px;
+    text-align: center;
+}
+
+.conquest {
+    font-size: 0.938rem;
+}

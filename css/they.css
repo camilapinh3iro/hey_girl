@@ -1,7 +1,52 @@
 #they {
     width: 100%;
-    height: 100vh;
+    height: auto;
     display: flex;
     flex-direction: column;
-    padding: 65px 85px;
+    padding: 45px 85px;
 }
+
+.container-photos-womens{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 75px;
+    padding: 75px 100px 0 100px;
+    justify-content: center ;
+}
+
+.photo-woman{
+    width: 260px;
+    height: 340px;
+    border-radius: 10px;
+}
+
+.content-woman{
+    height: 340px;
+    position: relative;
+    display: block;
+    overflow: hidden;
+    font-family: 'Lexend', sans-serif;
+    font-size: 0.75rem;
+    font-weight: 400;
+    border-radius: 10px;
+}
+
+.content-woman::before{
+    content: "KNOW MORE";
+    color: #fff;
+    background-color: #0009;
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: grid;
+    place-content: center;
+    transform: translateY(100%);
+    transition: transform 0.5s;
+}
+
+.content-woman:hover::before{
+    transform: translateY(0%);
+}
+
+

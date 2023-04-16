@@ -25,7 +25,6 @@
 .primary,
 .secundary {
     font-weight: 300;
-    text-shadow: 1px 2px 5px #d4d4d4;
     color: #5C5C5C;
     padding: 0 20px;
 }
@@ -38,11 +37,37 @@
     font-weight: 200;
 }
 
+.button-view-more {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
 .view-more {
+
+}
+
+.view-more button {
     font-weight: 300;
-    text-shadow: 1px 2px 5px #d4d4d4;
-    text-align: end;
-    padding: 60px 50px 0 0;
+    background-color: transparent;
+    border: 3px solid transparent;
+    width: 115px ;
+    height: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 0.95rem;
+    transition: all 400ms ease-in-out;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--primary-color);
+}
+
+.view-more button:hover {
+    border-color: var(--primary-color);
+    background-color: var(--primary-color);
+    color: #fff;
+    /* transform: scale(1.1); */
+
 }
 
 .together-right {
