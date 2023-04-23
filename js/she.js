@@ -39,7 +39,7 @@ const more = (woman) => {
 
     let img = document.createElement('img')
     img.classList.add('photo-woman-she')
-    img.src = woman.image
+    img.src = `../${woman.image}`
 
     contentImg.append(img)
 
