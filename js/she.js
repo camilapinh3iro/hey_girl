@@ -21,6 +21,7 @@ const more = (woman) => {
 
     let a = document.createElement('a')
     a.href = "../index.html#they"
+    a.ariaLabel = "Back to previous page"
 
     let i = document.createElement('i')
     i.classList.add('fas')
@@ -40,6 +41,7 @@ const more = (woman) => {
     let img = document.createElement('img')
     img.classList.add('photo-woman-she')
     img.src = `../${woman.image}`
+    img.alt = 'Photo woman'
 
     contentImg.append(img)
 
@@ -49,6 +51,7 @@ const more = (woman) => {
     let crownImg = document.createElement('img')
     crownImg.classList.add('image-crown')
     crownImg.src = '../img/crown.png'
+    crownImg.alt = 'Image crown'
 
     let contentP = document.createElement('div')
     contentP.classList.add('content-p')
