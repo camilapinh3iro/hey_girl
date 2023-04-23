@@ -168,5 +168,38 @@ export const mulheres = [
             "A atleta ganhou fama internacional, se tornando um ícone da ginástica e referência no esporte para diversas meninas que vieram depois dela, que é considerada a maior ginasta de todos os tempos.",
         ],
         "image": "./img/image-nadia.png"
+    },
+    {
+        "id": 17,
+        "name": "Bia Ferreira",
+        "profissao": "Boxeadora",
+        "biografia": [
+            "Beatriz Ferreira não cria problemas somente para suas adversárias. Para quem a acompanha, não sabe exatamente como a classificar. Já deixou de ser promessa e se tornou a maior boxeadora do Brasil.",
+            "É uma boxeadora que desde 2017 já acumula o maior medalha para o boxe feminino brasileiro em Olimpíadas (prata em Tóquio 2020) e tem na galeria um bicampeonato mundial no profissional.",
+            "Uma pugilista fora de série que tem o boxe no sangue, com seu pai sendo professor e grande inspiração, além de também boxeador profissional e campeão."
+        ],
+        "image": "./img/image-bia.jpg"
+    },
+    {
+        "id": 18,
+        "name": "Glória Maria",
+        "profissao": "Jornalista",
+        "biografia": [
+            "Glória Maria foi uma jornalista brasileira. Foi apresentadora do jornal “RJTV”, repórter do Jornal Hoje, do Jornal Nacional e do programa “Fantástico”. Viajou o mundo desde 2010 fazendo reportagens especiais para o programa “Globo Repórter”.",
+            "Glória Maria Matta da Silva nasceu no bairro de Vila Isabel, no Rio de Janeiro, no dia 15 de agosto de 1949. Seu pai Cosme Braga da Silva era alfaiate, e sua mãe Edna Alves Matta era dona de casa.",
+            "Estudou em escolas públicas e logo se destacou por escrever excelentes redações. Com 16 anos começou a trabalhar como telefonista na Companhia Telefônica Brasileira. Com 18 anos, ingressou no curso de jornalismo da Universidade Católica (PUC – Rio). Considerada um dos maiores símbolos do jornalismo brasileiro, foi a primeira repórter a realizar matérias ao vivo e a cores na televisão no Brasil."
+        ],
+        "image": "./img/image-gloria.jpeg"
+    },
+    {
+        "id": 19,
+        "name": "Fernanda Montenegro",
+        "profissao": "Atriz",
+        "biografia": [
+            "Arlette Pinheiro Monteiro Torres, mais conhecida como Fernanda Montenegro, é uma atriz brasileira. É descrita pela mídia, como a 'melhor atriz brasileira de todos os tempos'. Atriz reconhecida internacionalmente, indicada ao Oscar e ao Globo de Ouro, e também vencedora de um Emmy Internacional.",
+            "Filha de uma dona de casa e um mecânico, a artista nasceu no bairro do Campinho, na zona norte do Rio de Janeiro.",
+            "Fernanda Montenegro foi a primeira atriz contratada da TV Tupi (no Rio de Janeiro), era o ano de 1951. Na emissora, participou de cerca de 80 peças. No teatro, estreou em dezembro de 1950 ao lado do marido Fernando Torres. Anos mais tarde, em 1959, com o marido e mais alguns amigos fundou a companhia Teatro dos Sete, que durou até 1965."
+        ],
+        "image": "./img/image-fernanda.jpg"
     }
 ]
