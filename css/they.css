@@ -15,13 +15,13 @@
 }
 
 .photo-woman{
-    width: 260px;
-    height: 340px;
+    width: 320px;
+    height: 420px;
     border-radius: 10px;
 }
 
 .content-woman{
-    height: 340px;
+    height: 400px;
     position: relative;
     display: block;
     overflow: hidden;
