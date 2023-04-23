@@ -69,6 +69,7 @@ export const mulheres = [
         "profissão": "Líder de movimentos de defesa dos direitos das mulheres",
         "biografia": [
             "A Lei Maria da Penha em defesa das vítimas de violência doméstica existe hoje no Brasil muito em virtude da luta desta mulher em garantir que o seu agressor fosse condenado. Maria da Penha foi vítima de graves agressões por parte do marido que a deixaram paraplégica. Isto não a impediu de agir em busca de justiça para o seu caso e de criar movimentos em defesa de outras vítimas.",
+            "Após as tentativas de homicídio, Maria da Penha começou a atuar em movimentos sociais contra violência e impunidade e hoje é coordenadora de Estudos, Pesquisas e Publicações da Associação de Parentes e Amigos de Vítimas de Violência (APAVV) no Ceará. A história de Maria da Penha pode ser conhecida na biografia que escreveu em 1994, intitulada “Sobrevivi… Posso contar”."
         ],
         "image": "../img/image-maria.jpeg"
     },
@@ -81,5 +82,94 @@ export const mulheres = [
             "A atleta teve uma infância humilde no interior de Alagoas.O pai deixou a família quando ela tinha apenas um ano de idade.Desde então, Marta e os três irmãos(Ângela, José e Valdir) foram criados pela mãe Tereza da Silva."
         ],
         "image": "../img/image-marta.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Marie Curie",
+        "profissão": "Cientista",
+        "biografia": [
+            "Uma cientista mulher em 1898 é um grande marco na história; e quando essa mulher é premiada duas vezes com o Prêmio Nobel em diferentes áreas – química e física, então, é uma mudança no curso da história.",
+            "Marie Curie foi responsável pela descoberta dos elementos químicos rádio e polônio, o que transformou os ramos da ciência, da saúde, entre outros. Seu pioneirismo passou de geração em geração, tanto que suas filhas também seguiram os passos de Marie e de seu marido, Pierre, que também atuava nas ciências.",
+            "Uma curiosidade a respeito dessa mulher histórica importante é que sua morte aconteceu por conta de sua descoberta, em função da alta exposição à radiação. Entre as suspeitas, estão doenças como, leucemia e anemia aplástica."
+        ],
+        "image": "../img/image-marie.jpg"
+    },
+    {
+        "id": 10,
+        "name": "Greta Thunberg",
+        "profissão": "Ativista",
+        "biografia": [
+            "Os impactos das mudanças climáticas já estão sendo notados por nós há algum tempo. O derretimento das geleiras, entre outros fenômenos, mostram que é urgente tomarmos medidas que visam minimizar esses impactos.",
+            "Greta Thunberg é uma mulher histórica importante, sendo uma ativista da causa. Apesar de sua pouca idade, Greta ganhou notoriedade por adaptar seu estilo de vida de acordo com a causa que defende.",
+            "Com protestos presenciais e também via redes sociais, Greta passou a ser mencionada e procurada pelos veículos de mídia e também por organizações para participar de eventos de renome mundial, como o Fórum Econômico Mundial, a Cúpula do Clima da ONU e o Parlamento Britânico. "
+        ],
+        "image": "../img/image-greta.jpeg"
+    },
+    {
+        "id": 11,
+        "name": "Nise da Silveira",
+        "profissão": "Ativista e psiquiatra",
+        "biografia": [
+            "Atuando no campo da psiquiatria, Nise da Silveira era uma ativista no combate a técnicas agressivas no tratamento de pessoas com doenças mentais. Nise foi pioneira no questionamento ao que, à época, se entendia por “correto” no tratamento de pessoas com problemas de ordem mental.",
+            "Sua atuação tem como princípio o tratamento por meio da arte, dando liberdade e ressignificando a visão sobre doenças mentais. Uma mulher histórica importante, que construiu seu nome em um ambiente dominado por homens."
+        ],
+        "image": "../img/image-nise.jpg"
+    },
+    {
+        "id": 12,
+        "name": "Angela Davis",
+        "profissão": "Ativista",
+        "biografia": [
+            "Ativista na defesa dos direitos de mulheres e negros nos Estados Unidos, Angela Davis foi uma mulher que vivenciou diversos episódios de racismo e misoginia que a motivaram a manter sua luta.",
+            "Angela Davis sofreu perseguição desde sua adolescência em diversos momentos de protestos e acabou sendo presa. Sua luta ganhou grande repercussão, a ponto de John Lennon e Yoko Ono produzirem uma música em sua homenagem, chamada Angela.",
+            "Após sua libertação, Angela Davis tornou-se professora renomada em diversas universidades, além de ter diversos livros e obras publicadas."
+        ],
+        "image": "../img/image-angela.jpeg"
+    },
+    {
+        "id": 13,
+        "name": "Dorothy Mae Stang",
+        "profissão": "Ativista",
+        "biografia": [
+            "De nacionalidade americana, mas vivendo em território brasileiro, Dorothy Mae Stang foi uma ativista na defesa de terras e proteção de florestas na região Amazônica. Ela foi uma das primeiras pessoas a defender publicamente que as terras públicas deveriam ser destinadas à reforma agrária.",
+            "Essa postura de Dorothy Mae Stang levou a movimentos de violência por parte de grandes fazendeiros, resultando na morte de muitas pessoas, entre elas, essa mulher histórica importante."
+        ],
+        "image": "../img/image-dorothy.jpg"
+    },
+    {
+        "id": 14,
+        "name": "Françoise Barré-Sinoussi",
+        "profissão": "Virologista e Bióloga",
+        "biografia": [
+            "Nascida em 1947, seus estudos lhe permitiram identificar o vírus HIV em 1984. Esta descoberta a fez ser premiada com o Prêmio Nobel de Medicina junto com seu antigo orientador do Instituto Pasteur, Luc Montagnier.",
+            "Desde criança se mostrou interessada em observar e dissecar insetos, mas hesitava entre cursar Medicina ou seguir a carreira de pesquisadora. Por isso, ao conseguir um estágio no Instituto Pasteur, suas dúvidas se dissiparam e ela se tornou virologista.",
+            "Françoise Barré-Sinoussi continua ativa dando conferências sobre a AIDS e a importância da prevenção em relação a esta doença."
+        ],
+        "image": "../img/image-francoise.png"
+    },
+    {
+        "id": 15,
+        "name": "Margaret Hamilton",
+        "profissão": "Cientista",
+        "biografia": [
+            "Margaret Heafield Hamilton é uma cientista e engenheira norte-americana de grande importância para a história da astronáutica.",
+            "Ela trabalhou na NASA para o projeto Apollo 11, desenvolvendo o software que permitiu que homem chegasse à Lua pela primeira vez. Além disso, contribuiu em diversos outros projetos importantes e publicou mais de cem artigos sobre suas pesquisas.",
+            "Em uma época na qual o termo 'engenharia de software' ainda não existia, ela foi a primeira a se referir dessa forma ao trabalho que realizava.",
+            "Em 2016 recebeu a Medalha Presidencial da Liberdade das mãos de Barack Obama como homenagem ao trabalho realizado na NASA."
+        ],
+        "image": "../img/image-margaret.jpg"
+    },
+    {
+        "id": 16,
+        "name": "Nadia Comaneci",
+        "profissão": "Ginasta romena",
+        "biografia": [
+            "Nadia Comaneci é uma reconhecida ginasta romena que se destacou nos Jogos Olímpicos de Montreal em 1976. Na ocasião ela tinha 14 anos e alcançou a maior nota na prova de barras assimétricas, o famoso '10 perfeito', sendo que precisou lutar muito para conseguir mostrar seu talento.",
+            "A atleta ganhou fama internacional, se tornando um ícone da ginástica e referência no esporte para diversas meninas que vieram depois dela, que é considerada a maior ginasta de todos os tempos.",
+        ],
+        "image": "../img/image-nadia.png"
     }
+
+
+    
 ]
