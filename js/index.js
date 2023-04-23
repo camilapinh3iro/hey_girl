@@ -13,7 +13,7 @@ const makePhotos = (woman, indice) => {
 
     const a = document.createElement('a')
     a.classList.add('content-woman')
-    a.href = "../html/she.html"
+    a.href = "./html/she.html"
 
     const img = document.createElement('img')
     img.classList.add('photo-woman')
