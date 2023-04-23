@@ -2,13 +2,13 @@
 
 import { mulheres } from "./mulheres.js"
 
-const makePhotos = (woman) => {
+const makePhotos = (woman, indice) => {
 
 
     const li = document.createElement('li')
     li.classList.add('li-woman')
     li.onclick = () => {
-        localStorage.setItem("id", woman.id)
+        localStorage.setItem("indice", indice)
     }
 
     const a = document.createElement('a')
