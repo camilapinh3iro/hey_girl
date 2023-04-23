@@ -169,7 +169,4 @@ export const mulheres = [
         ],
         "image": "../img/image-nadia.png"
     }
-
-
-    
 ]
