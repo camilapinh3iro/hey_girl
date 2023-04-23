@@ -19,8 +19,6 @@ const makePhotos = (woman, indice) => {
     img.classList.add('photo-woman')
     img.src = woman.image
 
-
-
     a.append(img)
     li.append(a)
 

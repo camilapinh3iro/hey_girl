@@ -5,18 +5,38 @@ import { mulheres } from "./mulheres.js"
 const more = (woman) => {
     let body = document.getElementById('body')
 
-
     let header = document.getElementById('header')
 
-    let contentTitle = document.querySelector('content-title-section')
-    header.append(contentTitle)
+    let contentTitle = document.createElement('div')
+    contentTitle.classList.add('content-title-section')
 
+    let bar = document.createElement('div')
+    bar.classList.add('bar')
+
+    let text = document.createElement('div')
+    text.classList.add('title-text')
+
+    let h2 = document.createElement('h2')
+    h2.textContent = woman.name
+
+    let a = document.createElement('a')
+    a.href = "../index.html#they"
+
+    let i = document.createElement('i')
+    i.classList.add('fas')
+    i.classList.add('fa-angle-double-left')
+
+    a.append(i)
+    text.append(h2)
+    contentTitle.append(bar, text)
+
+    header.append(contentTitle, a)
 
     let main = document.getElementById('main')
-   
+
     let contentImg = document.createElement('div')
     contentImg.classList.add('img')
-    
+
     let img = document.createElement('img')
     img.classList.add('photo-woman-she')
     img.src = woman.image
@@ -33,11 +53,14 @@ const more = (woman) => {
     let contentP = document.createElement('div')
     contentP.classList.add('content-p')
 
-    let p = document.createElement('p')
-    p.textContent = woman.biografia
+    for (let index = 0; index < woman.biografia.length; index++) {
+        let p = document.createElement('p')
+        p.textContent = woman.biografia[index]
+        // console.log(woman.biografia[index]);
+        contentP.append(p)
+    }
 
     contentBiography.append(crownImg, contentP)
-    contentP.append(p)
 
     main.append(contentImg, contentBiography)
     body.append(header, main)
@@ -47,11 +70,7 @@ const more = (woman) => {
 
 const loadWoman = () => {
     let indice = localStorage.getItem('indice');
-
-    const container = document.getElementById('main')
-    const photo = more(mulheres[indice]) 
-
-    container.replaceChildren(photo)
+    more(mulheres[indice])
 }
 
 loadWoman()
