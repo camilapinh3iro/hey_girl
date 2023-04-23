@@ -63,7 +63,11 @@ const more = (woman) => {
         contentP.append(p)
     }
 
-    contentBiography.append(crownImg, contentP)
+    let teste = document.createElement('p')
+    teste.classList.add('profissao')
+    teste.textContent = woman.profissao
+
+    contentBiography.append(crownImg, teste, contentP)
 
     main.append(contentImg, contentBiography)
     body.append(header, main)
