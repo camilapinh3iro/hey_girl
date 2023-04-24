@@ -3,7 +3,6 @@
     height: auto;
     display: flex;
     flex-direction: column;
-    
 }
 
 .image-phrase{
@@ -16,7 +15,6 @@
     justify-content: center;
     align-items: center;
     text-transform: uppercase;
-    
 }
 
 .image-phrase{
@@ -40,7 +38,6 @@
     flex-wrap: wrap;
     max-width: 220px;
 }
-
 
 .social{
     margin: 10px;

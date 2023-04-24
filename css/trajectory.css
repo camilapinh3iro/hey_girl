@@ -13,12 +13,10 @@
     padding: 65px 85px;
 }
 
-
 .trajectory-right {
     width: 42%;
     padding: 55px 90px;
     display: flex;
-    
     justify-content: center;
     gap: 52px;
 }
@@ -33,7 +31,6 @@
     height: 50px;
     background-color: var(--primary-color);
     border-radius: 20px;
-
 }
 
 .title-text {

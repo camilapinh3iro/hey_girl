@@ -1,10 +1,8 @@
 'use strict'
 
-import { mulheres } from "./mulheres.js"
+import { women } from "./women.js"
 
 const makePhotos = (woman, indice) => {
-
-
     const li = document.createElement('li')
     li.classList.add('li-woman')
     li.onclick = () => {
@@ -19,7 +17,7 @@ const makePhotos = (woman, indice) => {
     const img = document.createElement('img')
     img.classList.add('photo-woman')
     img.src = woman.image
-    img.alt = 'Photo woman'
+    img.alt = `Photo ${woman.name}`
 
     a.append(img)
     li.append(a)
@@ -29,8 +27,8 @@ const makePhotos = (woman, indice) => {
 
 
 const loadPhotos = () => {
-    const container = document.querySelector('.container-photos-womens')
-    const photos = mulheres.map(makePhotos)
+    const container = document.querySelector('.container-photos-women')
+    const photos = women.map(makePhotos)
 
     container.replaceChildren(...photos)
 }

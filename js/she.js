@@ -1,8 +1,8 @@
 'use strict'
 
-import { mulheres } from "./mulheres.js"
+import { women } from "./women.js"
 
-const more = (woman) => {
+const moreAboutHer = (woman) => {
     let body = document.getElementById('body')
 
     let header = document.getElementById('header')
@@ -41,7 +41,7 @@ const more = (woman) => {
     let img = document.createElement('img')
     img.classList.add('photo-woman-she')
     img.src = `../${woman.image}`
-    img.alt = 'Photo woman'
+    img.alt = `Photo ${woman.name}`
 
     contentImg.append(img)
 
@@ -56,18 +56,17 @@ const more = (woman) => {
     let contentP = document.createElement('div')
     contentP.classList.add('content-p')
 
-    for (let index = 0; index < woman.biografia.length; index++) {
+    for (let index = 0; index < woman.biography.length; index++) {
         let p = document.createElement('p')
-        p.textContent = woman.biografia[index]
-        // console.log(woman.biografia[index]);
+        p.textContent = woman.biography[index]
         contentP.append(p)
     }
 
-    let teste = document.createElement('p')
-    teste.classList.add('profissao')
-    teste.textContent = woman.profissao
+    let profession = document.createElement('p')
+    profession.classList.add('profession')
+    profession.textContent = woman.profession
 
-    contentBiography.append(crownImg, teste, contentP)
+    contentBiography.append(crownImg, profession, contentP)
 
     main.append(contentImg, contentBiography)
     body.append(header, main)
@@ -77,7 +76,7 @@ const more = (woman) => {
 
 const loadWoman = () => {
     let indice = localStorage.getItem('indice');
-    more(mulheres[indice])
+    moreAboutHer(women[indice])
 }
 
 loadWoman()

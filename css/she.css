@@ -12,7 +12,6 @@ header{
 header i {
     color: var(--primary-color);
     font-size: 1.7rem;
-    
 }
 
 main{
@@ -50,10 +49,9 @@ main{
     padding-top: 50px;
 }
 
-.profissao{
+.profession{
     font-family: 'Julius Sans One', sans-serif;
     font-size: 1.65rem;
-    /* text-shadow: 1px 2px 10px #afafaf; */
 }
 
 .content-p p {
